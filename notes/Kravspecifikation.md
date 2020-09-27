@@ -1,14 +1,14 @@
 ---
-tags: [Store Systemer]
+tags: [Kravspecifikation-arkitektur-kvalitet.pdf, Store Systemer]
 title: Kravspecifikation
 created: '2020-09-25T07:12:10.121Z'
-modified: '2020-09-25T09:28:09.901Z'
+modified: '2020-09-26T08:49:55.636Z'
 ---
 
 # Kravspecifikation
--25. september
+- 25. september
 
-Udvikl en fælles forståelse omkring hvad der skal udvikles blandt:
+Skab en fælles forståelse omkring hvad der skal udvikles blandt:
 - Udviklere
 - Kunde
 - Brugere
