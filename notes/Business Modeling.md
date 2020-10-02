@@ -74,7 +74,7 @@ Viser organisationens interaktioner med omverdenen:
   
 
 ### Diagrammets indhold
-![Context Diagram](./BigSystems/ContextDiagram.png)
+![Context Diagram](./BigSystems/ContextDiagram.PNG)
 
 - Organisationen er i midten (cirkel)
   * Det er her du kan styre processer
@@ -115,7 +115,7 @@ Gode spørgsmål til at hjælpe med analysen:
 - hvor lang tid tar en aktivitet
 
 ### Diagrammets indhold
-![Functional Flow Diagram](./BigSystems/FunctionalFlowDiagram.png)
+![Functional Flow Diagram](./BigSystems/FunctionalFlowDiagram.PNG)
 
 - Diagrammet starter altid med en stakeholder (typisk en kunde eller en anden ekstern entitet) der starter en transaktion
 - Man kan så se hvilke funktionsområder er indgår i transaktionen
@@ -148,7 +148,7 @@ Diagrammet viser en proces, hvor det er tydeligt angivet, hvornår en given akt�
 - identificerer ineffektivitet
 
 ### Diagrammets indhold
-![Cross-Functional Flow Diagram](./BigSystems/CrossFunctionalFlowDiagram.png)
+![Cross-Functional Flow Diagram](./BigSystems/CrossFunctionalFlowDiagram.PNG)
 
 Diagramstrukturen gør det nemt at se den individuelle aktørs aktiviteter og se de interaktioner der krydser funktionsområder.
 
@@ -214,7 +214,7 @@ Fordele:
   * Diagrammet er grundlæggende en step-by-step guide for en bruger i et bestemt flow
 
 ### Diagrammets indhold
-![Flowchart Diagram](./BigSystems/FlowchartDiagram.png)
+![Flowchart Diagram](./BigSystems/FlowchartDiagram.PNG)
 
 - Viser den individuelle aktørs handleringer i et flow.
 - Flowchart diagrammet refererer tilbage til et __Cross-Functional Flow Diagram__
