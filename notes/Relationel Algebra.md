@@ -6,6 +6,7 @@ modified: '2020-10-03T18:01:19.726Z'
 ---
 
 # Relationel Algebra
+Bemærk at formularer ikke bliver renderet i GitHub, men ser rigtige ud i Notable
 ## Mængdeoperationer
 ### Union
 $R \bigcup S$ (Foreningsmængden)
