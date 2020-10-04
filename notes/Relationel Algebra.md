@@ -106,7 +106,9 @@ Aggregatfunktioner er operationer, der opererer på en af relationens attributte
 |ANSAT | $\sqsupset\Join\sqsubset$ | PRIVAT |
 
 - Outer Union
-  - $Forklaring mangler$
+```
+Forklaring mangler
+```
   * $R \bigcup* S$
 
 
