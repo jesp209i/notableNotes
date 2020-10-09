@@ -1,11 +1,11 @@
 ---
 tags: [Context, Cross-Functional Flow, Flowchart, Functional Flow, LinkedInLearning, Process Map, Store Systemer]
-title: Business Modeling
+title: Business Analysis Foundations
 created: '2020-10-02T07:08:56.753Z'
-modified: '2020-10-02T14:52:01.940Z'
+modified: '2020-10-09T13:31:26.924Z'
 ---
 
-# Business Modeling
+# Business Analysis Foundations
 
 Før der kan laves ændringer bør man forstå hvordan organisationen passer ind i det overordnede billede.
 
