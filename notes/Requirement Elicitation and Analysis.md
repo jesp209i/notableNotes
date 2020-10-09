@@ -1,8 +1,8 @@
 ---
-tags: [LinkedInLearning, Store Systemer]
+tags: [Krav, LinkedInLearning, Store Systemer, teknikker]
 title: Requirement Elicitation and Analysis
 created: '2020-10-09T06:47:58.491Z'
-modified: '2020-10-09T13:09:41.497Z'
+modified: '2020-10-09T14:02:09.262Z'
 ---
 
 # Requirement Elicitation and Analysis

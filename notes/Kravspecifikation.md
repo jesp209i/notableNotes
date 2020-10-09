@@ -1,8 +1,8 @@
 ---
-tags: [Kravspecifikation-arkitektur-kvalitet.pdf, Store Systemer]
+tags: [Krav, Store Systemer]
 title: Kravspecifikation
 created: '2020-09-25T07:12:10.121Z'
-modified: '2020-09-26T08:49:55.636Z'
+modified: '2020-10-09T14:01:19.236Z'
 ---
 
 # Kravspecifikation
@@ -68,4 +68,6 @@ Der arbejdes i et naturligt sprog som alle forstår!
   - konkrete mål for enten brugere eller eksterne system kald
 - scenarier
   - grupperinger af lignende use cases
+---
+Baseret løst på: Kravspecifikation-arkitektur-kvalitet.pdf
 
