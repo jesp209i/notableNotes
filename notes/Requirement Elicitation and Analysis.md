@@ -1,8 +1,8 @@
 ---
-tags: [Krav, LinkedInLearning, Store Systemer, teknikker]
+tags: [Context, Krav, LinkedInLearning, Store Systemer, teknikker, User story]
 title: Requirement Elicitation and Analysis
 created: '2020-10-09T06:47:58.491Z'
-modified: '2020-10-09T14:02:09.262Z'
+modified: '2020-10-10T08:24:49.533Z'
 ---
 
 # Requirement Elicitation and Analysis
@@ -219,8 +219,8 @@ Se under ["Business Modeling" overskriften "Context diagram"](Business Modeling.
 
 ### User stories and story mapping
 - User stories
-  * holder pladsen for en fremtidig samtale
-  * Består af `who/what/why`
+  * er basis for en fremtidig samtale
+  * Består af `who/what/why` eller `role/goal/benefit` - eksempel: `som en [who/role], vil jeg udføre [what/goal], for at opnå [why/benefit]`
   - Accept kriterier:
     * Viser detaljerne af hvordan en succesful handling i en story ser ud, fra brugerens synspunkt
   - Hvis user story bliver for stor (indeholder mange funktionaliteter) skal den splittes til flere mindre stories
@@ -229,6 +229,19 @@ Se under ["Business Modeling" overskriften "Context diagram"](Business Modeling.
   - viser eksempelvis hvordan splittede stories hænger sammen
 
 Disse værktøjer kan benyttes til at opdage huller i vores viden
+
+Undgå at vage beskrivelser fortsætter videre fra en workshop. Vage beskrivelser er svære at omsætte til det konkrete produkt kunden ønsker.
+
+Eksempel på vag beskrivelse: 
+- `As an online shopping customer, I want to manage my profile.`
+
+Ovenstående omskrevet til mere konkrete krav, der er nemmere at snakke om og modellere:
+- As an online shopping customer...
+   - I want to create a profile.
+   - I want to view my profile.
+   - I want to update my profile.
+   - I want to attach a photo to my profile.
+   - I want to delete my profile.
 
 ### Decision tables
 Bruges til at organisere og vise logik der ligger til baggrund for beslutninger
