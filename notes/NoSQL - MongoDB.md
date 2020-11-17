@@ -1,7 +1,8 @@
 ---
+tags: [Database]
 title: NoSQL - MongoDB
 created: '2020-11-17T08:11:26.897Z'
-modified: '2020-11-17T09:59:49.757Z'
+modified: '2020-11-17T14:23:40.990Z'
 ---
 
 # NoSQL - MongoDB
