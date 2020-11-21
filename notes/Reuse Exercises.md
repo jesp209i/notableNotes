@@ -2,7 +2,7 @@
 tags: [Distribueret, Opgaver, Store Systemer]
 title: Reuse Exercises
 created: '2020-11-21T15:10:54.460Z'
-modified: '2020-11-21T17:05:49.446Z'
+modified: '2020-11-21T18:14:33.147Z'
 ---
 
 # Reuse Exercises
@@ -81,9 +81,22 @@ Give an example of a subsystem where the Bridge pattern cannot be used.
 Consider  the  following  design  goals.  Indicate  the  candidate  pattern(s)  you  would
 consider to satisfy each goal: 
 * Given a legacy banking application, encapsulate the existing business logic component.
+  - Adapter pattern
+    - Must comply with existing interface
+    - Must reuse existing legacy component
 * Given a chess program, enable future developers to substitute the planning algorithm that decides on the next move with a better one.
+  - Composite
+    - New complexity of application domain
 * Given a chess program, enable a monitoring component to switch planning algorithms at runtime, based on the op posing player’s style and response time.
+  - Strategy
+    - similar to the database problem above.
 * Given a simulation of a mouse solving a maze, enable the path evaluation component to evaluate different paths independently of the types of moves considered by the mouse.
+  - Command, maybe?
 
 ## 8-8
-Consider an application that must select dynamically an encryption algorithm based on security requirements and computing time constraints. Which design pattern would you select? Draw a UML class diagram depicting the classes in the pattern and justify your choice 
+Consider an application that must select dynamically an encryption algorithm based on security requirements and computing time constraints. Which design pattern would you select?  
+- Strategy
+Draw a UML class diagram depicting the classes in the pattern and justify your choice
+- again similar to the database problem above
+
+
