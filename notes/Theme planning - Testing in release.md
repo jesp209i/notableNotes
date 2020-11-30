@@ -1,7 +1,7 @@
 ---
 title: Theme planning - Testing in release
 created: '2020-11-26T08:05:10.436Z'
-modified: '2020-11-26T10:17:33.408Z'
+modified: '2020-11-30T14:49:44.411Z'
 ---
 
 # Theme planning - Testing in release
@@ -28,7 +28,7 @@ Store planer følger ikke den agile tankegang, men for at planlægge sprints har
 
 ## Sizing stories - not estimating
 - Test af stories
-  * stor uenighed viser at man ikke har ens opfattelse af opagven
+  * stor uenighed viser at man ikke har ens opfattelse af opgaven
 
 ## User Story - Sizing
   - Hvad er konteksten til en user story
