@@ -2,7 +2,7 @@
 tags: [Testing, værktøj]
 title: Fluent Assertions
 created: '2020-10-28T08:04:45.007Z'
-modified: '2020-10-28T09:21:15.273Z'
+modified: '2020-11-30T13:03:38.292Z'
 ---
 
 # Fluent Assertions
@@ -40,5 +40,5 @@ public class NumberGeneratorTests
 ```
 
 Jonas' boganbefalinger:
-- THe art of Unit Testing
+- The art of Unit Testing
 - Dependency Injection Principles, Practices, and Patterns

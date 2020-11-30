@@ -1,9 +1,8 @@
 ---
-favorited: true
 tags: [Distribueret, Store systemer]
 title: Reuse
 created: '2020-11-20T11:56:08.520Z'
-modified: '2020-11-21T17:04:12.774Z'
+modified: '2020-11-26T13:03:53.254Z'
 ---
 
 # Reuse

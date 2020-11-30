@@ -1,8 +1,8 @@
 ---
-tags: [Testing]
+tags: [Agile Testing Quadrants, Testing]
 title: Q3 - questions
 created: '2020-11-17T14:23:44.497Z'
-modified: '2020-11-18T09:02:41.426Z'
+modified: '2020-11-30T13:02:42.339Z'
 ---
 
 # Q3 - questions

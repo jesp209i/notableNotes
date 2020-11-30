@@ -1,8 +1,8 @@
 ---
-tags: [Testing]
+tags: [Agile Testing Quadrants, Testing]
 title: Q4 - Business test
 created: '2020-11-18T08:07:50.219Z'
-modified: '2020-11-19T12:09:27.870Z'
+modified: '2020-11-30T13:02:54.611Z'
 ---
 
 # Q4 - Business test
