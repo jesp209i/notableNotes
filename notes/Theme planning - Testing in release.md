@@ -1,7 +1,8 @@
 ---
+tags: [Testing]
 title: Theme planning - Testing in release
 created: '2020-11-26T08:05:10.436Z'
-modified: '2020-11-30T14:49:44.411Z'
+modified: '2020-12-03T08:04:40.586Z'
 ---
 
 # Theme planning - Testing in release

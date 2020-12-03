@@ -1,8 +1,8 @@
 ---
-tags: [Distribueret, Store systemer]
+tags: [Distribueret, Store Systemer]
 title: Reuse
 created: '2020-11-20T11:56:08.520Z'
-modified: '2020-11-26T13:03:53.254Z'
+modified: '2020-12-03T08:04:57.777Z'
 ---
 
 # Reuse

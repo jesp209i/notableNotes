@@ -1,7 +1,7 @@
 ---
 title: Testing recap
 created: '2020-11-30T08:10:21.030Z'
-modified: '2020-11-30T14:34:07.410Z'
+modified: '2020-12-03T08:36:35.016Z'
 ---
 
 # Testing recap
@@ -57,12 +57,27 @@ Eksamens træningsopgaver til næste gang.
     - Det forventede udfald af scenariet
 
 ## 2. Hvilke principper kan man med fordel bruge ifm. udvikling i kode for at det bliver testbart?
-SOLID:
+SOLID:  
 - Single Responsibility
+  - Der må kun være en grund til at tilstanden i klassen ændrer sig.
+  - klasser skal have begrænset ansvar i applikationen
 - Open-Closed
+  - Open for extension, closed for modification
+  - Decorator pattern
+  - Extension metoder til typer
 - Liskov substitution
+  - Subtyper kan gå i stedet for en supertype
+    - interface => supertypen
+    - implementering => subtyper
 - Interface Segregation
+  - Hvis alle metoderne i et interface ikke giver mening at implementere i den konkrete klasse, så bør man opdele i flere interfaces
 - Dependency Inversion
+  - en klasse må ikke afhænge af konkrete implementeringer, men i stedet på abstrationer 
+    - abstraktion => interface / abstrakt klasse
+  
+Dependency Injection:  
+- delegerer ansvaret for instantiering væk fra klassen som har den afhængighed
+- afhængigheden bliver resolved i runtime
 
 Clean Architecture/"onion architecture" giver nogle gode udgangspunkter så projektets struktur understøtter tests på forskellige niveauer.
 
@@ -70,6 +85,7 @@ Clean Architecture/"onion architecture" giver nogle gode udgangspunkter så proj
 Dependency Inversion:
 - MakersOfDenmark.Application.Commands.Validators.AddressValidator  
     - => vi er her afhængige af det generelle interface (IHaveAddress.cs), ikke den specifikke implementering (EditMakerSpaceAddress.cs og RegisterMakerSpace.cs)
+    - Dette er også et eksempel på __LSP__
 
 ### Hvordan kan man bruge Chaos engineering ifm. test af kode?
 Chaos Engineering ligger i Q4, det vil sige:  "med fokus på teknologi" og "Kritiserer produktet".
@@ -79,6 +95,8 @@ Chaos Engineering tester typisk:
 - Infrastructure
 - Netværk
 - Applikation
+
+Ved at skabe edge cases, såsom at miste en harddisk, cpuens load øgest til max, services lukker ned.
 
 
 ## 3. Hvad er BDD?
