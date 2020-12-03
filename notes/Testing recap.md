@@ -1,7 +1,8 @@
 ---
+tags: [Testing]
 title: Testing recap
 created: '2020-11-30T08:10:21.030Z'
-modified: '2020-12-03T08:36:35.016Z'
+modified: '2020-12-03T10:26:40.217Z'
 ---
 
 # Testing recap
@@ -26,14 +27,22 @@ Eksamens træningsopgaver til næste gang.
 ### Hvordan tester man Database?
 - Integration test
 - InMemory database eller rigtig database der indeholder testdata, det vil sige ikke produktionsserver
+- Testmiljø som spejler produktionsmiljøet
 
 ### Hvad er Fluent Assertions og hvilke fordele/ulemper har FA?
 - et framework ovenpå mstest eller xunit
 - har et mere læsevenligt flow
   - variabel should be....
 - har nogle beskrivende beskeder når tests fejler - som inkluderer hele fejlscopet, ikke kun linjen med fejlen
+  - Klare fejlbeskeder gør det nemmere at rette fejl!
+  
+  Ulemper:
+  - En ny dependency
+  - nyt framework man skal lære
 
 ### Hvad er TDD og BDD?
+Samspil mellem TDD og BDD
+
 #### TDD
 - Test Driven Development => red, gren , refactor
   - Skriv en test der fejler
@@ -101,16 +110,36 @@ Ved at skabe edge cases, såsom at miste en harddisk, cpuens load øgest til max
 
 ## 3. Hvad er BDD?
 Se længere oppe  
-Behavioral Driven Design - beskrivelse af brugsscenarier / arbejdsflows
+Behavioral Driven Development - beskrivelse af brugsscenarier / arbejdsflows
 
 ### Hvordan bidrager BDD til udviklingen?
 Se længere oppe => Udviklere og forretningsfolk skriver usecases sammen
 - Skal støtte samarbejdet mellem udviklere og forretningsfolk
+  - Udviklere og forretningsfolk har ens forståelse af forretningen
+  - I en unittest som er baseret på en usecase hvor det kun er udviklernes forståelse der testes
 - skal give eksempler som kan bruges i udviklingen
 - dokumenterer brugsscenarier
+- skrives af en forretningsperson eller eksempelvis en Product Owner
+- Automatisering foregår eksempelvis med SpecFlow
 
 ### Hvordan opbygger man en testplan
 Se på de krav og behov der er beskrevet. Brug Agile Testing Quadrants som inspiration til at afdække relevante områder, på tværs af de 4 beskrevne dimensioner.
+
+- Indsamling af krav
+- Teststrategi:
+  - Scope
+  - Typer
+  - Risici
+  - test-logistics
+- Testkriterier
+  - Flowdiagrammer
+- Resource Planning:
+  - Hardware
+  - Medarbejdere
+  - Økonomi! :)
+- Test deliverables:
+  - build pipelines (automatiseret)
+  - grafik visning
 
 ### Forklar Maricks test kvadrant og giv eksempler på test man kan udføre i hver kvadrant
 Der er 4 dimensioner over to akser
@@ -119,4 +148,6 @@ Der er 4 dimensioner over to akser
 
 Hver kvadrant dækker 2 dimensioner
 ![Agile Testing Quadrant](./testing/atq.PNG)
+
+
 

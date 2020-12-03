@@ -2,7 +2,7 @@
 tags: [Agile Testing Quadrants, Testing]
 title: Agile Testing Quadrants
 created: '2020-11-30T08:29:11.240Z'
-modified: '2020-11-30T14:24:34.780Z'
+modified: '2020-12-03T10:28:20.613Z'
 ---
 
 # Agile Testing Quadrants
@@ -14,8 +14,15 @@ modified: '2020-11-30T14:24:34.780Z'
 ## Q1 - Techonology facing / Guide development
 Indeholder testtyper:
 - Unit
+  - Hvor kommer accept kriterier fra?
+    - retningslinjer for test
+    - Use case skal beskrive formålet
+    - Scenariet beskriver happy path og fejlbeskeder
 - Integration
+  - tester mellem alle componenter, eller 2 componenter
 - Component
+  - 
+  - En hel microservice (indeholder flere units)
 
 Denne Kvadrant skal have de fleste test (i antal)
 - Testene er skrevet i forbindelse med udviklingen
@@ -32,7 +39,7 @@ Automatiske test:
 - UI
 
 Manuelle test:
-- Prototyper / mockups
+- Prototyper / mockups / simulering
 
 Disse tests udføres under og efter udvikling
 - De automatiserede test bør includeres i `definition of done`
