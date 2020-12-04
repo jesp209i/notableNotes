@@ -1,7 +1,8 @@
 ---
+tags: [Store Systemer]
 title: Distribuering
 created: '2020-11-25T08:36:08.809Z'
-modified: '2020-11-25T09:39:46.450Z'
+modified: '2020-12-04T08:32:23.857Z'
 ---
 
 # Distribuering

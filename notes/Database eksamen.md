@@ -1,7 +1,8 @@
 ---
+tags: [Database, Eksamen]
 title: Database eksamen
 created: '2020-11-24T09:21:32.106Z'
-modified: '2020-11-24T10:12:36.678Z'
+modified: '2020-12-03T22:21:23.983Z'
 ---
 
 # Database eksamen
@@ -62,6 +63,34 @@ Pros and cons
 - beskriv OLTP / OLAP
 - star/snowflake modelling
 
+Approaches to processing data
+- OLTP - Online Transaction Processing
+  - eksempel
+    - find en bogs pris
+    - opdater seneste kundes transaktion
+    - holder styr på ansattes timer
+  - fokus på "daglig" operation
+  - har et applikations-orienteret design
+  - data: up-to-date, operational
+  - størrelse: snapshots, gigabytes
+  - queries: simple transaktioner og hyppige updates
+  - users: thousands (bruges af mange i en virksomhed, og måske virksomhedens kunder i en eller anden forstand)
+  - traditionel operationel database (SQL eller NoSQL)
+- OLAP - Online Analytical Processing
+  - eksempel
+    - beregn hvilke bøger der har bedst dækningsgrad
+    - Find de mest loyale kunder
+    - beslutte hvem der er månedens medarbejder
+  - fokus på business beslutninger
+  - har et subjekt-orienteret design (sidste kvartals salg)
+  - consolidated, historical
+  - størrelse: arkiv, terrabytes
+  - queries: komplekse, aggregerede forespørgsler og sjældne updates
+  - users: hundreds (virksomhedens analyse og data scientists)
+  - OLAP is Data Warehouse
+    - Fact table
+    - Dimension table
+    
 ## 6. 
 ```
 NoSQL databases are increasingly being used, argue why and provide examples.  

@@ -1,7 +1,8 @@
 ---
+tags: [Store Systemer]
 title: Store systemer case
 created: '2020-11-25T09:46:24.404Z'
-modified: '2020-11-27T09:42:28.942Z'
+modified: '2020-12-04T08:09:16.887Z'
 ---
 
 # Store systemer case

@@ -1,7 +1,8 @@
 ---
+tags: [Store Systemer]
 title: CI
 created: '2020-12-02T08:06:00.438Z'
-modified: '2020-12-02T10:35:43.281Z'
+modified: '2020-12-04T08:29:28.219Z'
 ---
 
 # CI
