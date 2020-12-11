@@ -2,7 +2,7 @@
 tags: [BASE, CAP, Database, MongoDB]
 title: Distributed Database
 created: '2020-11-03T08:02:33.747Z'
-modified: '2020-11-03T10:05:38.147Z'
+modified: '2020-12-06T22:32:49.162Z'
 ---
 
 # Distributed Database
@@ -11,11 +11,11 @@ modified: '2020-11-03T10:05:38.147Z'
 ## CAP 
 I et distribueret system kan man kun garantere to af bogstaverne i CAP
 - Consistency
-  * Every read fetches the last write
+  * Every read fetches the last write or fails
 - Availability
-  * Read and writes always succeed. Each nn-failing node will return a response in a reasonable amount of time.
+  * Read and writes always succeed. Each non-failing node will return a response in a reasonable amount of time.
 - Partition tolerance
-  * System wil continues to funvtion even when 
+  * System wil continues to function even when 
   * Must for NoSQL systemer
 
 

@@ -2,7 +2,7 @@
 tags: [Database, index]
 title: B+tree
 created: '2020-09-26T08:52:48.202Z'
-modified: '2020-09-29T09:07:05.732Z'
+modified: '2020-12-05T08:27:30.229Z'
 ---
 
 # B+tree
@@ -30,7 +30,7 @@ Indeksering
 - clustered (standard i mssql)
   - direkte adgang til data
   - Best practice er at bruge kolonner hvor WHERE clause og JOINS indgår i queries
-  - Der kan dun være et clustered index i en tabel
+  - Der kan kun være et clustered index i en tabel
 - non clustered
   - Pointers til data
   - Laver tabeller i baggrunden, som indeholder den type sortering man vil opnå med indexet.

@@ -1,8 +1,8 @@
 ---
-tags: [Testing]
+tags: [Eksamen, Testing]
 title: Testing recap
 created: '2020-11-30T08:10:21.030Z'
-modified: '2020-12-03T10:26:40.217Z'
+modified: '2020-12-09T21:04:02.323Z'
 ---
 
 # Testing recap
@@ -70,6 +70,7 @@ SOLID:
 - Single Responsibility
   - Der må kun være en grund til at tilstanden i klassen ændrer sig.
   - klasser skal have begrænset ansvar i applikationen
+  - En klasse har kun et ansvar
 - Open-Closed
   - Open for extension, closed for modification
   - Decorator pattern
