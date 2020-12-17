@@ -1,11 +1,11 @@
 ---
 tags: [Eksamen, Testing]
-title: Testing Eksamensspørgsmål 2
+title: Testing Exam Question 2
 created: '2020-12-09T07:53:08.165Z'
-modified: '2020-12-10T21:16:35.158Z'
+modified: '2020-12-12T07:53:20.439Z'
 ---
 
-# Testing Eksamensspørgsmål 2
+# Testing Exam Question 2
 - Hvad er Unit-testing?
 - Hvordan kan man bruge unit-testing til at forbedre kvaliteten af software.
 - Hvad er Fluent Assertion og hvilke fordele og ulemper kan der være ved at bruge det sammenlignet med Xunit eller anden test-framework

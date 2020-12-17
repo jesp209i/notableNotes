@@ -1,11 +1,11 @@
 ---
 tags: [Eksamen, Testing]
-title: Testing Eksamensspørgsmål 3
+title: Testing Exam Question 3
 created: '2020-12-09T07:53:08.165Z'
-modified: '2020-12-10T21:25:07.710Z'
+modified: '2020-12-12T07:53:27.340Z'
 ---
 
-# Testing Eksamensspørgsmål 3
+# Testing Exam Question 3
 - Hvad er data-driven test?
 - Hvilken quadrant i test-quadranten af Brian Marick’s, indeholder data-driven test?
 - Hvad er mocking og hvordan kan man med fordel bruge mocking ifm. testing af samme quadrant som DDT.

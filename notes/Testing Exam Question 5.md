@@ -1,11 +1,11 @@
 ---
 tags: [Eksamen, Testing]
-title: Testing Eksamensspørgsmål 5
+title: Testing Exam Question 5
 created: '2020-12-09T07:53:08.165Z'
-modified: '2020-12-10T22:39:12.600Z'
+modified: '2020-12-12T07:53:40.316Z'
 ---
 
-# Testing Eksamensspørgsmål 5
+# Testing Exam Question 5
 - Hvordan vil dit anbefalede test-setup se ud ifm. semesterprojektet?.
 - Fremvis en figur der viser anbefalet setup af miljøet med fokus på backend. (server, API, cloud og evt. database m.m.)
 - Forklar dine valg og fremvis eksempler fra semesterprojekt der har givet dig grunden til de valg du har lavet i din testplan.

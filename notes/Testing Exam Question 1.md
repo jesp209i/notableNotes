@@ -1,11 +1,11 @@
 ---
 tags: [Eksamen, Testing]
-title: Testing Eksamensspørgsmål 1
+title: Testing Exam Question 1
 created: '2020-12-09T07:53:08.165Z'
-modified: '2020-12-10T20:42:19.669Z'
+modified: '2020-12-12T07:53:09.049Z'
 ---
 
-# Testing Eksamensspørgsmål 1
+# Testing Exam Question 1
 - Forklar hvad SOLID er og hvordan det har indflydelse på test.
 - Hvilken quadrant i test-quadranten af Brian Marick’s, har SOLID primært indflydelse på og hvorfor.
 - Hvad er Chaos Engineering. Hvad kan det bruges til ifm. forbedre kvaliteten i software. 

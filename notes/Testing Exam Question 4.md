@@ -1,11 +1,11 @@
 ---
 tags: [Eksamen, Testing]
-title: Testing Eksamensspørgsmål 4
+title: Testing Exam Question 4
 created: '2020-12-09T07:53:08.165Z'
-modified: '2020-12-10T22:11:38.527Z'
+modified: '2020-12-12T07:53:33.563Z'
 ---
 
-# Testing Eksamensspørgsmål 4
+# Testing Exam Question 4
 - Hvad er Business facing tests?
 - Hvordan kan business facing tests forbedre udviklingen for en backend-udvikler?
 - Hvor høre Business facing test, der har til formål at hjælpe programmøren, hjemme i Brian Marick’s quadrant og hvorfor?
